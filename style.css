@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#home path{
+    stroke-width: 2px;
+}
+#num1 path:nth-child(1){
+    stroke-dasharray: 413px;
+    stroke-dashoffset: 413px;
+    animation:animate 2s ease forwards 0.2s,
+    tree 4s ease-in-out forwards;
+}
+#num1 path:nth-child(2){
+    stroke-dasharray: 709;
+    stroke-dashoffset: 709;
+    animation:animate 2s ease forwards 0.5s,
+    home 4s ease-in-out forwards 0.5s;
+}
+#num1 path:nth-child(3){
+    stroke-dasharray:373;
+    stroke-dashoffset:373;
+    animation:animate 2s ease forwards 0.7s;
+}
+#num1 path:nth-child(4){
+    stroke-dasharray: 938;
+    stroke-dashoffset: 938;
+    animation:animate 2s ease forwards 0.9s,
+    home-side 4s ease-in-out forwards 0.9s;
+}
+#num1 path:nth-child(5){
+    stroke-dasharray: 938;
+    stroke-dashoffset: 938;
+    animation:animate 2s ease forwards 1.1s,
+    wave_1 4s ease-in-out forwards 1.1s;
+}
+#num1 path:nth-child(6){
+    stroke-dasharray: 911;
+    stroke-dashoffset: 911;
+    animation:animate 2s ease forwards 1.3s,
+    wave_2 4s ease-in-out forwards 1.3s;
+}
+#num2 path:nth-child(1){
+    stroke-dasharray:139;
+    stroke-dashoffset:139;
+    animation:animate 2s ease forwards 10.9s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(2){
+    stroke-dasharray: 101;
+    stroke-dashoffset: 101;
+    animation:animate 2s ease forwards 11.1s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(3){
+    stroke-dasharray: 165;
+    stroke-dashoffset: 165;
+    animation:animate 2s ease forwards 11.3s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(4){
+    stroke-dasharray: 125;
+    stroke-dashoffset: 125;
+    animation:animate 2s ease forwards 11.5s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(5){
+    stroke-dasharray: 126;
+    stroke-dashoffset: 126;
+    animation:animate 2s ease forwards 11.9s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(6){
+    stroke-dasharray: 156;
+    stroke-dashoffset: 156;
+    animation:animate 2s ease forwards 12.1s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(7){
+    stroke-dasharray: 148;
+    stroke-dashoffset: 148;
+    animation:animate 2s ease forwards 12.3s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(8){
+    stroke-dasharray: 153;
+    stroke-dashoffset: 153;
+    animation:animate 2s ease forwards 12.5s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(9){
+    stroke-dasharray: 107;
+    stroke-dashoffset: 107;
+    animation:animate 2s ease forwards 12.7s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(10){
+    stroke-dasharray: 172;
+    stroke-dashoffset: 172;
+    animation:animate 2s ease forwards 12.3s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(11){
+    stroke-dasharray: 136;
+    stroke-dashoffset: 136;
+    animation:animate 2s ease forwards 12.9s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(12){
+    stroke-dasharray: 177;
+    stroke-dashoffset: 177;
+    animation:animate 2s ease forwards 13.1s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(13){
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation:animate 2s ease forwards 13.3s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(14){
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    animation:animate 2s ease forwards 13.1s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(15){
+    stroke-dasharray: 68;
+    stroke-dashoffset: 68;
+    animation:animate 2s ease forwards 13.5s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(16){
+    stroke-dasharray: 109;
+    stroke-dashoffset: 109;
+    animation:animate 2s ease forwards 13.4s,
+    name 3s ease-in-out forwards 12s;
+}
+#num2 path:nth-child(17){
+    stroke-dasharray: 40;
+    stroke-dashoffset: 40;
+    animation:animate 2s ease forwards 13.9s,
+    name 3s ease-in-out forwards 12s;
+}
+#num3 path:nth-child(3){
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation:animate 2s ease forwards 1.5s,
+    leaps 4s ease-in-out forwards 2.9s;
+}
+#num3 path:nth-child(4){
+    stroke-dasharray: 168;
+    stroke-dashoffset: 168;
+    animation:animate 2s ease forwards 1.7s,
+    leap 4s ease-in-out forwards 3.1s;
+}
+#num3 path:nth-child(5){
+    stroke-dasharray: 32;
+    stroke-dashoffset: 32;
+    animation:animate 2s ease forwards 1.9s,
+    leap 4s ease-in-out forwards 3.1s;
+}
+#num3 path:nth-child(6){
+    stroke-dasharray: 41;
+    stroke-dashoffset: 41;
+    animation:animate 2s ease forwards 2.1s,
+    leap 4s ease-in-out forwards 3.1s;
+}
+#num3 path:nth-child(7){
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation:animate 2s ease forwards 2.5s,
+    leap 4s ease-in-out forwards 3.1s;
+}
+#num3 path:nth-child(8){
+    stroke-dasharray: 73;
+    stroke-dashoffset: 73;
+    animation:animate 2s ease forwards 2.7s,
+    leap 4s ease-in-out forwards 3.1s;
+}
+#num3 path:nth-child(9){
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation:animate 2s ease forwards 2.9s,
+    leap 4s ease-in-out forwards 3.1s;
+}
+#num3 path:nth-child(10){
+    stroke-dasharray: 55;
+    stroke-dashoffset: 55;
+    animation:animate 2s ease forwards 3.1s,
+    leap 4s ease-in-out forwards 3.1s;
+}
+#num4 path:nth-child(3){
+    stroke-dasharray: 572;
+    stroke-dashoffset: 572;
+    animation:animate 2s ease forwards 3.3s,
+    leaps 4s ease-in-out forwards 3.1s;
+}
+#num4 path:nth-child(4){
+    stroke-dasharray: 168;
+    stroke-dashoffset: 168;
+    animation:animate 2s ease forwards 3.5s,
+    leap 4s ease-in-out forwards 3.5s;
+}
+#num4 path:nth-child(5){
+    stroke-dasharray: 32;
+    stroke-dashoffset: 32;
+    animation:animate 2s ease forwards 3.7s,
+    leap 4s ease-in-out forwards 3.5s;
+}
+#num4 path:nth-child(6){
+    stroke-dasharray: 41;
+    stroke-dashoffset: 41;
+    animation:animate 2s ease forwards 3.9s,
+    leap 4s ease-in-out forwards 3.5s;
+}
+#num4 path:nth-child(7){
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation:animate 2s ease forwards 4.1s,
+    leap 4s ease-in-out forwards 3.5s;
+}
+#num4 path:nth-child(8){
+    stroke-dasharray: 73;
+    stroke-dashoffset: 73;
+    animation:animate 2s ease forwards 4.3s,
+    leap 4s ease-in-out forwards 3.5s;
+}
+#num4 path:nth-child(9){
+    stroke-dasharray: 66;
+    stroke-dashoffset: 66;
+    animation:animate 2s ease forwards 4.5s,
+    leap 4s ease-in-out forwards 3.5s;
+}
+#num4 path:nth-child(10){
+    stroke-dasharray: 55;
+    stroke-dashoffset: 55;
+    animation:animate 2s ease forwards 4.7s,
+    leap 4s ease-in-out forwards 3.5s;
+}
+#num5 path:nth-child(3){
+    stroke-dasharray: 575;
+    stroke-dashoffset: 575;
+    animation:animate 2s ease forwards 4.9s,
+    leaps 4s ease-in-out forwards 4.9s;
+}
+#num5 path:nth-child(4){
+    stroke-dasharray: 168;
+    stroke-dashoffset: 168;
+    animation:animate 2s ease forwards 5.1s,
+    leap 4s ease-in-out forwards 5.3s;
+}
+#num5 path:nth-child(5){
+    stroke-dasharray: 35;
+    stroke-dashoffset: 35;
+    animation:animate 2s ease forwards 5.3s,
+    leap 4s ease-in-out forwards 5.3s;
+}
+#num5 path:nth-child(6){
+    stroke-dasharray: 40;
+    stroke-dashoffset: 40;
+    animation:animate 2s ease forwards 5.5s,
+    leap 4s ease-in-out forwards 5.3s;
+}
+#num5 path:nth-child(7){
+    stroke-dasharray: 75;
+    stroke-dashoffset: 75;
+    animation:animate 2s ease forwards 5.7s,
+    leap 4s ease-in-out forwards 5.3s;
+}
+#num5 path:nth-child(8){
+    stroke-dasharray: 79;
+    stroke-dashoffset: 79;
+    animation:animate 2s ease forwards 5.9s,
+    leap 4s ease-in-out forwards 5.3s;
+}
+#num5 path:nth-child(9){
+    stroke-dasharray: 70;
+    stroke-dashoffset: 70;
+    animation:animate 2s ease forwards 6.1s,
+    leap 4s ease-in-out forwards 5.3s;
+}
+#num5 path:nth-child(10){
+    stroke-dasharray: 63;
+    stroke-dashoffset: 63;
+    animation:animate 2s ease forwards 6.3s,
+    leap 4s ease-in-out forwards 5.3s;
+}
+#num6 path:nth-child(1){
+    stroke-dasharray: 575;
+    stroke-dashoffset: 575;
+    animation:animate 2s ease forwards 6.5s,
+    leaps 4s ease-in-out forwards 6.6s;
+}
+#num6 path:nth-child(2){
+    stroke-dasharray: 168;
+    stroke-dashoffset: 168;
+    animation:animate 2s ease forwards 6.7s,
+    leap 4s ease-in-out forwards 6.9s;
+}
+#num6 path:nth-child(3){
+    stroke-dasharray: 27;
+    stroke-dashoffset: 27;
+    animation:animate 2s ease forwards 6.9s,
+    leap 4s ease-in-out forwards 6.9s;
+}
+#num6 path:nth-child(4){
+    stroke-dasharray: 35;
+    stroke-dashoffset: 35;
+    animation:animate 2s ease forwards 7.1s,
+    leap 4s ease-in-out forwards 6.9s;
+}
+#num6 path:nth-child(5){
+    stroke-dasharray: 75;
+    stroke-dashoffset: 75;
+    animation:animate 2s ease forwards 7.3s,
+    leap 4s ease-in-out forwards 6.9s;
+}
+#num6 path:nth-child(6){
+    stroke-dasharray: 79;
+    stroke-dashoffset: 79;
+    animation:animate 2s ease forwards 7.5s,
+    leap 4s ease-in-out forwards 6.9s;
+}
+#num6 path:nth-child(7){
+    stroke-dasharray: 58;
+    stroke-dashoffset: 58;
+    animation:animate 2s ease forwards 7.7s,
+    leap 4s ease-in-out forwards 6.9s;
+}
+#num6 path:nth-child(8){
+    stroke-dasharray: 63;
+    stroke-dashoffset: 63;
+    animation:animate 2s ease forwards 7.9s,
+    leap 4s ease-in-out forwards 6.9s;
+}#num7 path:nth-child(1){
+    stroke-dasharray: 575;
+    stroke-dashoffset: 575;
+    animation:animate 2s ease forwards 8.1s,
+    leaps 4s ease-in-out forwards 8.3s;
+}
+#num7 path:nth-child(2){
+    stroke-dasharray: 168;
+    stroke-dashoffset: 168;
+    animation:animate 2s ease forwards 8.3s,
+    leap 4s ease-in-out forwards 8.6s;
+}
+#num7 path:nth-child(3){
+    stroke-dasharray: 27;
+    stroke-dashoffset: 27;
+    animation:animate 2s ease forwards 8.5s,
+    leap 4s ease-in-out forwards 8.6s;
+}
+#num7 path:nth-child(4){
+    stroke-dasharray: 35;
+    stroke-dashoffset: 35;
+    animation:animate 2s ease forwards 8.7s,
+    leap 4s ease-in-out forwards 8.6s;
+}
+#num7 path:nth-child(5){
+    stroke-dasharray: 75;
+    stroke-dashoffset: 75;
+    animation:animate 2s ease forwards 8.9s,
+    leap 4s ease-in-out forwards 8.6s;
+}
+#num7 path:nth-child(6){
+    stroke-dasharray: 79;
+    stroke-dashoffset: 79;
+    animation:animate 2s ease forwards 9.1s,
+    leap 4s ease-in-out forwards 8.6s;
+}
+#num7 path:nth-child(7){
+    stroke-dasharray: 58;
+    stroke-dashoffset: 58;
+    animation:animate 2s ease forwards 10.2s,
+    leap 4s ease-in-out forwards 8.6s;
+}
+#num7 path:nth-child(8){
+    stroke-dasharray: 63;
+    stroke-dashoffset: 63;
+    animation:animate 2s ease forwards 10.5s,
+    leap 4s ease-in-out forwards 8.6s;
+}
+#num8 path:nth-child(1){
+    stroke-dasharray: 51;
+    stroke-dashoffset: 51;
+    animation:animate 2s ease forwards 1.1s,
+    windo 4s ease-in-out forwards 1.1s;
+}
+#num8 path:nth-child(2){
+    stroke-dasharray: 51;
+    stroke-dashoffset: 51;
+    animation:animate 2s ease forwards 1.3s,
+    windo 4s ease-in-out forwards 1.1s;
+}
+#num8 path:nth-child(3){
+    stroke-dasharray: 54;
+    stroke-dashoffset: 54;
+    animation:animate 2s ease forwards 1.5s,
+    windo 4s ease-in-out forwards 1.1s;
+}
+#num8 path:nth-child(4){
+    stroke-dasharray: 54;
+    stroke-dashoffset: 54;
+    animation:animate 2s ease forwards 1.7s,
+    windo 4s ease-in-out forwards 1.1s;
+}
+
+/***** This is Color Fill Code Area *****/
+
+@keyframes tree{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill:#0F9749;
+        stroke-width: 0;
+    }
+}
+@keyframes home{
+   to{
+    fill:#37376D;
+    stroke-width: 0;
+   }
+}
+@keyframes home-side{
+    from{
+        fill:transparent;
+    }
+   to{
+        fill:rgb(74, 74, 155);
+        stroke-width: 0;
+   }
+}
+@keyframes wave_1{
+    from{
+        fill:transparent;
+    }
+   to{
+        fill:#EF435D;
+        stroke-width: 3;
+        stroke: #E6E7E8;
+   }
+}
+@keyframes wave_2{
+    from{
+        fill:transparent;
+    }
+   to{
+        fill:#5FBB46;
+        stroke-width: 1;
+        stroke: #5FBB46;
+   }
+}
+@keyframes leaps{
+    from{
+        fill:transparent;
+    }
+   to{
+        fill:#3AB54A;
+        stroke-width:0;
+   }
+}
+@keyframes leap{
+    to{
+        stroke: #fff;
+        stroke-width: 1;
+    }
+}
+@keyframes windo{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: rgb(25,31,41);
+        stroke-width: 0;
+    }
+}
+/**** Animated the name of Designer ****/
+@keyframes name{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill:rgb(255,50,60);
+        stroke-width:0;
+    }
+}
+
+/******** Animated The Full SVG Stroke Area ********/
+@keyframes animate{
+    to{
+      stroke-dashoffset: 0;
+    }
+}
